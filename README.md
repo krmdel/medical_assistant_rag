@@ -16,13 +16,13 @@
 - **Accessing Services**
 - **Notes**
 
-- ** Problem Description **
+- **Problem Description **
   
 The healthcare industry faces the challenge of managing and extracting meaningful information from vast repositories of medical data. Physicians, medical students, and patients frequently seek answers to complex medical questions, ranging from symptom evaluation to disease diagnosis. However, finding accurate and relevant information in a timely manner can be difficult due to the volume and complexity of medical literature, research papers, clinical guidelines, and case reports.
 
 Additionally, the variability in medical knowledge sources makes it challenging to provide precise, contextually relevant responses. As a result, there is a pressing need for intelligent systems that can retrieve accurate information and present it in a coherent and user-friendly manner.
 
-- ** Why This Tool is Useful in the Real World**
+- **Why This Tool is Useful in the Real World**
 A Retrieval-Augmented Generation (RAG) medical assistant addresses these challenges by combining the power of large language models (LLMs) with advanced retrieval mechanisms. Such a tool can:
 
 - **Enhance Decision-Making:** Healthcare professionals can quickly retrieve pertinent information for clinical decision-making, reducing the time spent searching through medical texts.
