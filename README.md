@@ -1,20 +1,20 @@
 # **Medical Assistant Using Retrieval-Augmented Generation (RAG)**
 **Table of Contents**
-**Problem Description**
-Why This Tool is Useful in the Real World
-Features Developed
-Installing Pipenv and Dependencies
-Elasticsearch Setup
-Using Docker Compose
-Build and Run
-Stopping Services
-Switching Between Streamlit and Gunicorn
-Using Dockerfile Directly
-Build the Docker Image
-Run the Docker Container
-Stop and Remove the Container
-Accessing Services
-Notes
+- **Problem Description**
+- **Why This Tool is Useful in the Real World**
+- **Features Developed**
+- **Installing Pipenv and Dependencies**
+- **Elasticsearch Setup**
+- **Using Docker Compose**
+  - **Build and Run**
+  - **Stopping Services**
+  - **Switching Between Streamlit and Gunicorn**
+- **Using Dockerfile Directly**
+  - **Build the Docker Image**
+  - **Run the Docker Container**
+  - **Stop and Remove the Container**
+- **Accessing Services**
+- **Notes**
 Problem Description
 The healthcare industry faces the challenge of managing and extracting meaningful information from vast repositories of medical data. Physicians, medical students, and patients frequently seek answers to complex medical questions, ranging from symptom evaluation to disease diagnosis. However, finding accurate and relevant information in a timely manner can be difficult due to the volume and complexity of medical literature, research papers, clinical guidelines, and case reports.
 
