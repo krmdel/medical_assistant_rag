@@ -1,3 +1,6 @@
+![cover_image](Images/cover_omage.jpeg)
+Source: DALL-E 3
+
 # **Medical Assistant Using Retrieval-Augmented Generation (RAG)**
 **Table of Contents**
 - **Problem Description**
