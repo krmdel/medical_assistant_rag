@@ -1,4 +1,4 @@
-**Medical Assistant Using Retrieval-Augmented Generation (RAG)**
+# **Medical Assistant Using Retrieval-Augmented Generation (RAG)**
 Table of Contents
 Problem Description
 Why This Tool is Useful in the Real World
