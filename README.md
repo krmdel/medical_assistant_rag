@@ -76,14 +76,12 @@ pip install pipenv
 Install Project Dependencies:
 
 ```bash
-Copy code
 pipenv install
 ```
 Elasticsearch Setup
 Before running the application, start an Elasticsearch container:
 
 ```bash
-Copy code
 docker run -it \
     --rm \
     --name elasticsearch \
@@ -99,7 +97,6 @@ Build and Run
 To build and run the services using Docker Compose, open a terminal, navigate to the directory containing the docker-compose.yml, and run:
 
 ```bash
-Copy code
 docker-compose up --build
 ```
 This command will:
@@ -111,23 +108,23 @@ Stopping Services
 To stop all running services, use:
 
 ```bash
-Copy code
 docker-compose down
 ```
 **Switching Between Streamlit and Gunicorn**
 Modify the APP_TYPE in your .env file (APP_TYPE=streamlit or APP_TYPE=gunicorn).
+
 Restart the services:
 ```bash
-Copy code
 docker-compose down
 docker-compose up --build
 ```
+
 **Using Dockerfile Directly**
+
 Build the Docker Image
 Run the following command in the terminal to build the Docker image:
 
 ```bash
-Copy code
 docker build -t my_app_image .
 ```
 Replace my_app_image with your preferred image name.
@@ -136,7 +133,6 @@ Run the Docker Container
 Run the Docker container with the necessary environment variables:
 
 ```bash
-Copy code
 docker run -p 8501:8501 -p 5000:5000 \
   -e APP_TYPE=streamlit \  # Change to "gunicorn" if needed
   -e OPENAI_API_KEY=your_api_key_here \
@@ -149,13 +145,11 @@ Stop and Remove the Container
 To stop the running container:
 
 ```bash
-Copy code
 docker stop my_app_container
 ```
 To remove the container:
 
 ```bash
-Copy code
 docker rm my_app_container
 ```
 
