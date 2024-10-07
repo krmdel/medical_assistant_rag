@@ -1,6 +1,6 @@
 # **Medical Assistant Using Retrieval-Augmented Generation (RAG)**
-**Table of Contents\n**
-Problem Description
+**Table of Contents**
+**Problem Description**
 Why This Tool is Useful in the Real World
 Features Developed
 Installing Pipenv and Dependencies
