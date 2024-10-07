@@ -71,7 +71,6 @@ Installing Pipenv and Dependencies
 Install Pipenv (if not already installed):
 
 ```bash
-Copy code
 pip install pipenv
 ```
 Install Project Dependencies:
@@ -161,11 +160,13 @@ docker rm my_app_container
 ```
 
 **Accessing Services**
+
 Streamlit: Go to http://localhost:8501 in your web browser if APP_TYPE=streamlit.
 Gunicorn: Go to http://localhost:5000 if APP_TYPE=gunicorn.
 Grafana: Access Grafana at http://localhost:3300.
 
 **Notes**
+
 Replace the placeholders in the .env file with your own values.
 Use Docker Compose for managing multiple services like databases and monitoring tools.
 If you encounter any issues, check the logs for each service to identify the problem.
