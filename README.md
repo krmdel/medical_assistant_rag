@@ -161,7 +161,9 @@ docker rm my_app_container
 **Accessing Services**
 
 Streamlit: Go to http://localhost:8501 in your web browser if APP_TYPE=streamlit.
+
 Gunicorn: Go to http://localhost:5000 if APP_TYPE=gunicorn.
+
 Grafana: Access Grafana at http://localhost:3300.
 
 **Notes**
