@@ -35,6 +35,8 @@ A Retrieval-Augmented Generation (RAG) medical assistant addresses these challen
   - **Save Time and Resources:** Automating information retrieval and generation helps medical practitioners and support staff streamline their workflow, improving efficiency in patient care.
   - **Facilitate Research and Education:** Medical students and researchers can access a vast repository of knowledge, staying updated with the latest medical research and best practices.
 
+ ![RAG](https://github.com/krmdel/medical_assistant_rag/blob/main/Images/RAG.png)
+
 **Features Developed**
 
 - **Data Conversion and Indexing for Efficient Retrieval**
