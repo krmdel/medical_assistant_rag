@@ -27,6 +27,7 @@ The healthcare industry faces the challenge of managing and extracting meaningfu
 Additionally, the variability in medical knowledge sources makes it challenging to provide precise, contextually relevant responses. As a result, there is a pressing need for intelligent systems that can retrieve accurate information and present it in a coherent and user-friendly manner.
 
 - **Why This Tool is Useful in the Real World?**
+- 
 A Retrieval-Augmented Generation (RAG) medical assistant addresses these challenges by combining the power of large language models (LLMs) with advanced retrieval mechanisms.
 
   - **Enhance Decision-Making:** Healthcare professionals can quickly retrieve pertinent information for clinical decision-making, reducing the time spent searching through medical texts.
@@ -193,9 +194,15 @@ docker rm my_app_container
 
 **Accessing Services**
 
-Streamlit: Go to http://localhost:8501 in your web browser if APP_TYPE=streamlit.
+Streamlit: 
+Go to http://localhost:8501 in your web browser if APP_TYPE=streamlit.
 
-Gunicorn: Go to http://localhost:5000 if APP_TYPE=gunicorn.
+Gunicorn: 
+Go to http://localhost:5000 if APP_TYPE=gunicorn. Update the question in test.py to send the request
+
+```bash
+python test.py
+```
 
 Grafana: Access Grafana at http://localhost:3300.
 
