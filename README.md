@@ -37,6 +37,7 @@ A Retrieval-Augmented Generation (RAG) medical assistant addresses these challen
 **Features Developed**
 
 - **Data Conversion and Indexing for Efficient Retrieval**
+  
 The raw data from a medical Q&A dataset was transformed to include key fields for indexing and fast retrieval. By structuring the data, the system efficiently searches and provides precise responses to user queries, ensuring accuracy and relevance.
 Data Source: Jin, Di, et al. "What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams." arXiv preprint arXiv:2009.13081 (2020), GitHub: https://github.com/jind11/MedQA
 
