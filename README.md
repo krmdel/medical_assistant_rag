@@ -17,6 +17,7 @@ Source: DALL-E 3
   - **Run the Docker Container**
   - **Stop and Remove the Container**
 - **Accessing Services**
+- **Conclusion**
 - **Notes**
 
 
@@ -110,6 +111,7 @@ pipenv install
 ```
 
 **Elasticsearch Setup**
+
 Before running the application, start an Elasticsearch container:
 
 ```bash
@@ -124,7 +126,7 @@ docker run -it \
     docker.elastic.co/elasticsearch/elasticsearch:8.9.0
 ```
 
-**Using Docker Compose :Build and Run**
+**Using Docker Compose: Build and Run**
 
 To build and run the services using Docker Compose, open a terminal, navigate to the directory containing the docker-compose.yml, and run:
 
@@ -151,6 +153,7 @@ docker-compose down
 Modify the APP_TYPE in your .env file (APP_TYPE=streamlit or APP_TYPE=gunicorn).
 
 **Restart the services**
+
 ```bash
 docker-compose down
 docker-compose up --build
@@ -207,6 +210,18 @@ python test.py
 ```
 
 Grafana: Access Grafana at http://localhost:3300.
+
+**Conclusion**
+
+The Medical Assistant Using Retrieval-Augmented Generation (RAG) project combines LLMs with efficient search mechanisms to tackle the complex challenge of providing accurate and relevant medical information. By leveraging Elasticsearch for hybrid search, this system can become highly scalable, reliable, and adaptable for various healthcare applications.
+
+However, since the system utilizes a general-purpose language model trained on a broad range of general knowledge, there is a significant risk of domain-specific failures. Medical data is inherently more specialized, and deviations in the generated answers may arise if the model’s foundational training lacks comprehensive coverage of intricate medical details. This could lead to inaccurate or less precise responses in scenarios where deep medical expertise is required. Additionally, there is a potential risk that subtle but critical medical nuances may be missed or misinterpreted. Therefore, there is a huge room for improvement, for instance, deploying a fine-tuned model on domain specific data for RAG.
+
+To mitigate these risks, continuous fine-tuning of the language model on specific medical datasets, as well as leveraging domain-specific medical LLMs, will be essential. Incorporating real-world clinical data and user feedback loops will also help ensure that the system evolves to meet the high standards expected in medical practice.
+
+As this project continues to evolve, future developments can include fine-tuning the language model, improving retrieval accuracy, and expanding the scope of datasets to cover a broader range of medical knowledge. Additionally, the integration of real-world clinical data will be essential to ensure that the system remains at the cutting edge of medical decision support.
+
+This tool brings potential benefit to streamline information retrieval in healthcare, saving time and resources while improving decision-making and patient outcomes.
 
 **Notes**
 
