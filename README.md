@@ -26,12 +26,12 @@ The healthcare industry faces the challenge of managing and extracting meaningfu
 Additionally, the variability in medical knowledge sources makes it challenging to provide precise, contextually relevant responses. As a result, there is a pressing need for intelligent systems that can retrieve accurate information and present it in a coherent and user-friendly manner.
 
 - **Why This Tool is Useful in the Real World?**
-A Retrieval-Augmented Generation (RAG) medical assistant addresses these challenges by combining the power of large language models (LLMs) with advanced retrieval mechanisms. Such a tool can:
+A Retrieval-Augmented Generation (RAG) medical assistant addresses these challenges by combining the power of large language models (LLMs) with advanced retrieval mechanisms.
 
-- **Enhance Decision-Making:** Healthcare professionals can quickly retrieve pertinent information for clinical decision-making, reducing the time spent searching through medical texts.
-- **Support Patients:** It provides patients with reliable and accessible health information, improving health literacy and empowering them to make informed decisions about their care.
-- **Save Time and Resources:** Automating information retrieval and generation helps medical practitioners and support staff streamline their workflow, improving efficiency in patient care.
-- **Facilitate Research and Education:** Medical students and researchers can access a vast repository of knowledge, staying updated with the latest medical research and best practices.
+  - **Enhance Decision-Making:** Healthcare professionals can quickly retrieve pertinent information for clinical decision-making, reducing the time spent searching through medical texts.
+  - **Support Patients:** It provides patients with reliable and accessible health information, improving health literacy and empowering them to make informed decisions about their care.
+  - **Save Time and Resources:** Automating information retrieval and generation helps medical practitioners and support staff streamline their workflow, improving efficiency in patient care.
+  - **Facilitate Research and Education:** Medical students and researchers can access a vast repository of knowledge, staying updated with the latest medical research and best practices.
 
 **Features Developed**
 
@@ -95,7 +95,8 @@ Install Project Dependencies:
 ```bash
 pipenv install
 ```
-Elasticsearch Setup
+
+**Elasticsearch Setup**
 Before running the application, start an Elasticsearch container:
 
 ```bash
@@ -109,6 +110,7 @@ docker run -it \
     -e "xpack.security.enabled=false" \
     docker.elastic.co/elasticsearch/elasticsearch:8.9.0
 ```
+
 **Using Docker Compose :Build and Run**
 
 To build and run the services using Docker Compose, open a terminal, navigate to the directory containing the docker-compose.yml, and run:
