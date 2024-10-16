@@ -11,8 +11,7 @@ RUN pipenv install --deploy --ignore-pipfile --system
 
 COPY medical_assistant_rag .
 
-EXPOSE 5000  # For Gunicorn
-EXPOSE 8501  # For Streamlit
+EXPOSE 5000 8501 # For Gunicorn/Streamlit
 
 # Use an environment variable to choose between Gunicorn and Streamlit
 ENV APP_TYPE=gunicorn
